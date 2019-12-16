@@ -1,0 +1,212 @@
+/* Whole Page Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./img/background-wallpaper.jpg');
+}
+
+#mid-section {
+    /* padding-left: 400px;
+    padding-right: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px; */
+    background-color: pink;
+}
+
+
+
+/* ******************************************************* */
+            /* WHITE HEADER STRIP */
+/* ******************************************************* */
+
+#white-strip-color {
+    background-color: chartreuse;
+}
+
+#white-header {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    /* background-color: tomato;
+    padding-left: 150px;
+    padding-right: 150px; */
+    
+}
+
+#white-strip-r {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ******************************************************* */
+            /* Remphi Intro */
+/* ******************************************************* */
+#remphi-intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    background-color: tomato;
+}
+
+#remphi-intro-r {
+    align-self: center;
+}
+#remphi-intro-l {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* ******************************************************* */
+            /* Navbar */
+/* ******************************************************* */
+
+#full-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-l {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-element {
+    padding: 10px;
+}
+
+/* ******************************************************* */
+            /* Instant Order Booking  */
+/* ******************************************************* */
+#instant-order-booking {
+   margin-top: 15px;
+}
+
+#instant-o-image {
+    width: 500px;
+    height: 280px;
+}
+
+#instant-info-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+#button-next {
+    background-color: teal;
+    padding: 10px;
+}
+
+#instant-o-image {
+    margin: 50px;
+    align-self: center;
+    width: max-content;
+    height: 1;
+    background-color: black;
+}
+
+/* ******************************************************* */
+            /* Our Services  */
+/* ******************************************************* */
+
+#our-services {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#services-m {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding: 30px;
+}
+
+#services-m-r {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#service-e {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+
+/* ******************************************************* */
+            /* Inner Box  */
+/* ******************************************************* */
+
+#follow-main {
+    display: flex;
+    flex-direction: row;
+}
+
+#follow-us {
+    display: flex;
+    flex-direction: column;
+}
+
+#follow-us-icons {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+#follow-us-icon {
+    margin: 10px;
+}
+
+#contact-us {
+    display: flex;
+    justify-items: center;
+    margin-left: 100px;
+}
+
+#contact-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    width: max-content;
+
+}
+
+/* ******************************************************* */
+            /* Privacy  */
+/* ******************************************************* */
+
+#privacy-items {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#privacy-item {
+    display: flex;
+    margin: 5px;
+}
+
+/* ******************************************************* */
+            /* Footer  */
+/* ******************************************************* */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 20px;
+}
