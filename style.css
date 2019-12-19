@@ -10,10 +10,10 @@ body {
 }
 
 #mid-section {
-    /* padding-left: 400px;
+    padding-left: 400px;
     padding-right: 400px;
     margin-top: 25px;
-    margin-bottom: 25px; */
+    margin-bottom: 25px;
     background-color: pink;
 }
 
@@ -24,7 +24,8 @@ body {
 /* ******************************************************* */
 
 #white-strip-color {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
+    background-color: white;
 }
 
 #white-header {
@@ -38,9 +39,27 @@ body {
     
 }
 
+#white-strip-l {
+    /* background-color: #009993; */
+    display: flex;
+    align-self: center;
+}
+
 #white-strip-r {
     display: flex;
     flex-direction: row;
+    margin: 5px;
+    /* background-color: pink; */
+    align-items: center;
+}
+
+#is-small {
+    
+    background-color: #009993;
+    width: max-content;
+    height: max-content;
+    padding: 7px 15px;
+    border-radius: 4px;
 }
 
 /* ******************************************************* */
@@ -50,11 +69,14 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-    background-color: tomato;
+    background-color: white;
+    padding: 11px;
 }
 
 #remphi-intro-r {
-    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 #remphi-intro-l {
     display: flex;
@@ -62,34 +84,76 @@ body {
     align-items: center;
 }
 
+#remphi-intro-logo {
+    width: 55px;
+    margin-right: 10px;
+}
+
+#remphi-intro-remphi{
+    font-size: 30px;
+}
+
+#download-app-logo {
+    padding: 5px;
+    margin-right: 5px;
+}
+
 /* ******************************************************* */
             /* Navbar */
 /* ******************************************************* */
 
 #full-nav {
+    background-color: #3E528C;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+}
+#nav-app-logo {
+    padding: 10px;
 }
 
 #nav-l {
     display: flex;
     flex-direction: row;
+    align-self: center;
 }
 
 #nav-element {
     padding: 10px;
+    align-self: center;
+    font-weight: 700;
 }
+
 
 /* ******************************************************* */
             /* Instant Order Booking  */
 /* ******************************************************* */
 #instant-order-booking {
-   margin-top: 15px;
+    background-color: white;
+   margin-top: 10px;
 }
 
 #instant-o-image {
     width: 500px;
     height: 280px;
+}
+
+#instant-info-block{
+    /* background-color: violet; */
+    padding: 5px;
+    padding-right: 50px;
+}
+
+#instant-o-b {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: black;
 }
 
 #instant-info-side {
@@ -98,8 +162,11 @@ body {
 }
 
 #button-next {
-    background-color: teal;
-    padding: 10px;
+    background-color: #00AEA6;
+    padding: 10px 30px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: white;
 }
 
 #instant-o-image {
@@ -118,6 +185,19 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    background-color: white;
+
+    border-top: 0.1px solid;
+    padding-bottom: 20px;
+    /* border-top-color: black;
+    border-top-width: thin;
+    border-style: solid; */
+}
+
+#our-l {
+    /* background-color: royalblue; */
+    margin-top: 20px;
+    padding: 10px;
 }
 
 #services-m {
@@ -128,6 +208,7 @@ body {
 }
 
 #services-m-r {
+    /* background-color: pink; */
     display: flex;
     flex: 2;
     flex-direction: column;
@@ -139,9 +220,31 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 5px;
+    margin: 5px;
+    /* background-color: rebeccapurple; */
+    box-shadow:  -1px 1px #77aaff,
+         -2px 2px #77aaff,
+         -3px 3px #77aaff,
+         -4px 4px #77aaff,
+         -5px 5px #77aaff;
 }
 
+#why-remphi-title {
+    font-size: 18px; 
+    font-family: 'Open Sans'; 
+    color: black; 
+    font-weight: 700;
+}
+
+#why-remphi-subtitle {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#why-remphi-info {
+    /* background-color: plum; */
+}
 
 /* ******************************************************* */
             /* Inner Box  */
@@ -150,9 +253,18 @@ body {
 #follow-main {
     display: flex;
     flex-direction: row;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+#follow-us-text{
+    font-family: 'Open Sans';
+    padding: 10px 20px;
+    font-weight: 700;
 }
 
 #follow-us {
+    /* background-color: plum; */
     display: flex;
     flex-direction: column;
 }
@@ -160,11 +272,18 @@ body {
 #follow-us-icons {
     display: flex;
     flex-direction: row;
-    margin: 5px;
+    padding: 5px;
 }
 
 #follow-us-icon {
+    padding-left: 10px;
+}
+
+#envelope{
+    background-color: grey;
     margin: 10px;
+    padding: 1px 5px;
+    border-radius: 2px;
 }
 
 #contact-us {
@@ -178,7 +297,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     width: max-content;
 
 }
@@ -187,15 +306,22 @@ body {
             /* Privacy  */
 /* ******************************************************* */
 
+#privacy {
+    background-color: white;
+    border-top: 0.1px solid grey;
+}
+
 #privacy-items {
     display: flex;
     flex-direction: row;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 #privacy-item {
     display: flex;
-    margin: 5px;
+    margin: 10px 15px;
+    font-size: 12px;
 }
 
 /* ******************************************************* */
@@ -203,10 +329,11 @@ body {
 /* ******************************************************* */
 
 #footer {
+    background-color: #3E528C;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
-    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 20px;
 }
