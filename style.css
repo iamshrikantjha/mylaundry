@@ -1,3 +1,11 @@
+/* ************************************************************ */
+
+    /* Theme Color: 3E528C Ocean Blue*/
+    /* Theme Color: 8F25E9 Ocean Blue*/
+
+    
+/* ************************************************************ */
+
 /* Whole Page Style */
 * {
     margin: 0;
@@ -24,8 +32,8 @@ body {
 /* ******************************************************* */
 
 #white-strip-color {
-    /* background-color: chartreuse; */
-    background-color: white;
+    background-color: #E92563;
+    /* background-color: white; */
 }
 
 #white-header {
@@ -104,7 +112,7 @@ body {
 /* ******************************************************* */
 
 #full-nav {
-    background-color: #3E528C;
+    background-color: #E92563;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -337,7 +345,7 @@ body {
 /* ******************************************************* */
 
 #footer {
-    background-color: #3E528C;
+    background-color: #E92563;
     display: flex;
     justify-content: center;
     align-items: center;
