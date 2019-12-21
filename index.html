@@ -32,7 +32,8 @@
             <div class="container" id="white-header">
                 <!-- Inner Left -->
                 <div id="white-strip-l">
-                    <h1 style="font-size: 15px; font-weight: 800; display: flex; color: white;">Customer Support | Track Order </h1>
+                    <h1 style="font-size: 15px; font-weight: 800; display: flex; color: white;">Customer Support | Track
+                        Order </h1>
                 </div>
                 <!-- Inner Right -->
                 <div id="white-strip-r">
@@ -40,7 +41,8 @@
                     <span style="color: white;">
                         <i class="fas fa-phone-square fa-2x"></i>
                     </span>
-                    <h1 style="font-size: 16px; font-weight: 800; display: flex; color: white; padding-left: 10px; padding-right: 10px;">
+                    <h1
+                        style="font-size: 16px; font-weight: 800; display: flex; color: white; padding-left: 10px; padding-right: 10px;">
                         7225816145</h1>
                     <div id="is-small">
                         <h3><span style="font-size: 15px;
@@ -71,38 +73,54 @@
     </section>
 
     <!-- Navbar -->
-    <div name="remphi-nav">
-        <div class="container" id="full-nav">
-            <div id="nav-l">
+    <div name="remphi-nav" class="container">
+        <nav class="navbar is-primary" id="full-nav">
+            <!-- <div id="nav-l"> -->
                 <!-- List -->
-                <span id="nav-app-logo">
-                    <i class="fas fa-home fa-2x"></i>
+                <div class="navbar-brand navbar-item">
+                    <i class="fas fa-home fa-2x" color='white'></i>
+                </div>
+                <span class="navbar-burger burger" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </span>
-                <div id="nav-element">
-                    <h1><span style="font-weight: 800;">Home</span></h1>
+                <div id="navMenu" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a href="#" class="navbar-item is-active">Home</a>
+                        <a href="#" class="navbar-item">Price List</a>
+                        <a href="#" class="navbar-item">Orders</a>
+                        <a href="#" class="navbar-item">Quick Payment</a>
+                        <a href="#" class="navbar-item">Offers</a>
+                        <a href="#" class="navbar-item">Services</a>
+                        <!-- <div class="navbar-item">
+                            <h1><span style="font-weight: 800; color: white;">Home</span></h1>
+                        </div>
+                        <div class="navbar-item">
+                            <h1><span style="font-weight: 800; color: white;">Price List</span></h1>
+                        </div>
+                        <div class="navbar-item">
+                            <h1><span style="font-weight: 800; color: white;">Orders</span></h1>
+                        </div>
+                        <div class="navbar-item">
+                            <h1><span style="font-weight: 800; color: white;">Quick Payment</span></h1>
+                        </div>
+                        <div class="navbar-item">
+                            <h1><span style="font-weight: 800; color: white;">Offers</span></h1>
+                        </div>
+                        <div class="navbar-item">
+                            <h1><span style="font-weight: 800; color: white;">Services</span></h1>
+                        </div> -->
+                    </div>
                 </div>
-                <div id="nav-element">
-                    <h1><span style="font-weight: 800;">Price List</span></h1>
-                </div>
-                <div id="nav-element">
-                    <h1><span style="font-weight: 800;">Orders</span></h1>
-                </div>
-                <div id="nav-element">
-                    <h1><span style="font-weight: 800;">Quick Payment</span></h1>
-                </div>
-                <div id="nav-element">
-                    <h1><span style="font-weight: 800;">Offers</span></h1>
-                </div>
-                <div id="nav-element">
-                    <h1><span style="font-weight: 800;">Services</span></h1>
-                </div>
-            </div>
-            <!-- nav-r -->
-            <div id="nav-element">
-                <h1><span style="margin-right: 10px; font-weight: 800;">Get App Link</span></h1>
-            </div>
 
-        </div>
+            <!-- </div> -->
+            <!-- nav-r -->
+            <!-- <div class="navbar-item" id="nav-element">
+                <h1><span style="margin-right: 10px; font-weight: 800; color: white;">Get App Link</span></h1>
+            </div> -->
+
+        </nav>
     </div>
 
     <!-- Instant Order Booking -->
@@ -314,6 +332,20 @@
                     </span> by Rasputin</span></h1>
         </div>
     </section>
+
+
+    <!-- Script -->
+    <script type="text/javascript">
+        (function () {
+            var burger = document.querySelector('.burger');
+            var nav = document.querySelector('#' + burger.dataset.target);
+
+            burger.addEventListener('click', function () {
+                burger.classList.toggle('is-active');
+                nav.classList.toggle('is-active');
+            });
+        })();
+    </script>
 </body>
 
 </html>
