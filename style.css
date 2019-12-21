@@ -139,7 +139,10 @@ body {
     align-self: center;
     font-weight: 700;
     flex-shrink: 0;
-    
+}
+
+#nav-element.h1 {
+    font-weight: 800;
 }
 
 
@@ -238,11 +241,11 @@ body {
     padding: 5px;
     margin: 5px;
     /* background-color: rebeccapurple; */
-    box-shadow:  -1px 1px #77aaff,
-         -2px 2px #77aaff,
-         -3px 3px #77aaff,
-         -4px 4px #77aaff,
-         -5px 5px #77aaff;
+    box-shadow:  -1px 1px #E92563,
+         -2px 2px #E92563,
+         -3px 3px #E92563,
+         -4px 4px #E92563,
+         -5px 5px #E92563;
 }
 
 #why-remphi-title {
