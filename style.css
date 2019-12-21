@@ -241,11 +241,7 @@ body {
     padding: 5px;
     margin: 5px;
     /* background-color: rebeccapurple; */
-    box-shadow:  -1px 1px #E92563,
-         -2px 2px #E92563,
-         -3px 3px #E92563,
-         -4px 4px #E92563,
-         -5px 5px #E92563;
+    box-shadow: -6px 6px #E92563;
 }
 
 #why-remphi-title {
